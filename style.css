@@ -1,3 +1,5 @@
+/*comment*/
+
 body {
     background-color: #000;
     font-family: 'Proxima nova', sans-serif;
@@ -112,7 +114,6 @@ h3{
     justify-content: center;
     align-items: center;
     text-align: center;
-    /* test */
 }
 
 .text3{
