@@ -76,6 +76,7 @@ h3 {
     right: 0;
     padding-bottom: 15rem;
     overflow: hidden;
+    z-index:-100;
 }
 
 .whitespace-2{
@@ -115,10 +116,17 @@ h3 {
     flex-wrap: wrap;
   }
 
-  .rowToColumn {
+.rowToColumn {
     display: flex;
     flex-direction: row;
   }
+
+.alignMiddle{
+    width:50%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
 
 
 /* I C O N S */
@@ -129,6 +137,7 @@ h3 {
 .extra-space{
     margin-top:1rem;
     margin-bottom:2rem;
+    z-index: -100;
 }
 
 .white-background{
@@ -151,21 +160,21 @@ h3 {
     object-fit: cover;
     height: 100vh;
     max-height: 50rem;
-    width: 100%;
+    /*width: 100%;*/
 }
 
 .img3 {
     object-fit: contain;
-    height: 100vh;
     max-height: 50rem;
-    width: 80%;
-    margin: 0 auto;
+    justify-content: center;
+    /*width: 80%;
+    margin: 0 auto;*/
 }
 
 .img4 {
     object-fit: contain;
-    height: 70vh;
-    max-height: 30rem
+    max-height: 30rem;
+    justify-content: center;
 }
 
 .img5 {
@@ -184,7 +193,7 @@ h3 {
 
 .img7 {
     object-fit: contain;
-    height: 40vh;
+    height: 20vh;
 }
 
 
@@ -208,7 +217,7 @@ h3 {
 }
 
 .text6 {
-    max-width: 70%;
+    max-width: 50%;
 }
 
 .text7 {
@@ -299,6 +308,7 @@ h3 {
     border-color: #fff;
     border-radius: 100%;
     padding-top: 0px;
+    z-index: -100;
 }
 
 .line_arc-2 {
@@ -313,6 +323,7 @@ h3 {
     border-width: 2px;
     border-color: #fff;
     border-radius: 100%;
+    z-index: -100;
 }
 
 .line_arc-3 {
@@ -327,6 +338,7 @@ h3 {
     border-width: 2px;
     border-color: #fff;
     border-radius: 100%;
+    z-index: -100;
 }
 
 .line_arc-4 {
@@ -341,6 +353,7 @@ h3 {
     border-width: 2px;
     border-color: #fff;
     border-radius: 100%;
+    z-index: -100;
 }
 
 
@@ -392,12 +405,16 @@ h3 {
     justify-content: center;
     align-items: center;
     text-align: center;
+    padding-right: 15%;
+    padding-left: 15%;
+    padding-top:0;
+    background-color: rgb(19, 19, 19);
 }
 
-.gathered {
+/*.gathered {
     display: grid;
     grid-template-columns: 1fr 1fr;
-}
+}*/
 
 .gathered-img {
     display: flex;
@@ -426,6 +443,7 @@ h3 {
     align-items: center;
     padding: 0px;
     margin:0px;
+    padding-right: 15%;
     padding-left: 15%;
 }
 
@@ -442,9 +460,9 @@ h3 {
 .section4{
     display: flex;
     align-items: center;
-    padding: 0px;
-    margin:0px;
+    padding-right: 15%;
     padding-left: 15%;
+    margin:0px;
     padding-top:20rem;
 }
 
