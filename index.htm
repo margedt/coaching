@@ -7,32 +7,36 @@
 <html lang="">
 <body class="text">
 <link rel="stylesheet" href="style.css">
+<script src="main.js"></script>
 <div class="page-padding">
-    <nav role="navigation"class="navbar text-nav">
-        <div class="navbar-left">
-            <img width="200" src="Pagoda.png" alt="">
-        </div>
-        <div class="navbar-right">
-            <div class="Platform">
-                <p>Platform</p>
-            </div>
-            <div class="Recources">
-                <p>Recources</p>
-            </div>
-            <a href="">Community</a>
-            <a href="contact.html">Contact</a>
-            <button class="button button-default button-transparent">
-                <span>Login</span>
-                <img width="15" height="15" src="arrow-white.svg" alt="">
-            </button>
-            <button class="button button-default button-is-green">
-                <span>Get Started</span>
-                <img width="15" height="15" src="arrow.svg" alt="">
-            </button>
-        </div>
-    </nav>
 
     <header class="header">
+        <div class="mobileHeader">
+    <img img width="200" src="pagoda.png" alt="logo" class="logo">
+    <button onclick={openMenu()} class="hamburger">Menu</button>
+    </div>
+
+        <nav role="navigation"class="menu navbar text-nav">
+            <ul class="list">
+                <li class="listItem"><a href="#">Platform </a></li>
+                <li><a href="#">Recources</a></li>
+                <li><a href="#">Community</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <button class="button button-default button-transparent">
+                    <span>Login</span>
+                    <img width="15" height="15" src="arrow-white.svg" alt="">
+                </button>
+                <button class="button button-default button-is-green">
+                    <span>Get Started</span>
+                    <img width="15" height="15" src="arrow.svg" alt="">
+                </button>
+            </ul>
+        </nav>
+
+    </header>
+    
+
+    <section class="section0">
         <h1>
             Meet the easiest <br/> Web3 Startup <br/>Platform.
         </h1>
@@ -45,7 +49,7 @@
                 <img width="15" height="15" src="arrow.svg" alt="">
             </button>
         </div>
-    </header>
+    </section>
 
     <div class="whitespace">
         <div class="line_arc-1 homepage" style="opacity: 1;"></div>
@@ -246,7 +250,7 @@
     <div class="section7 white-background ">
         <div class="rowToColumn">
             <div class="alignMiddle text7">
-                <h3>You can build it. We can help.</h3>
+                <h3 id="black-text">You can build it. We can help.</h3>
             </div>
                 <img class="alignMiddle img7" src="3D-thing.png" alt="">
         </div>
