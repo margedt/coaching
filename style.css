@@ -144,13 +144,6 @@ h3 {
     background-color: white;
 }
 
-.plant{
-    margin-right:10rem;
-}
-
-.speed{
-    margin-right:13.5rem;
-}
 
 
 
@@ -186,9 +179,8 @@ h3 {
 
 .img6 {
     object-fit: cover;
-    height: 100vh;
     width: 100%;
-    /*max-height: 60rem;*/
+    max-height: 200vh;
     overflow: hidden;
 }
 
@@ -209,6 +201,7 @@ h3 {
 
 .text3 {
     max-width: 70%;
+    padding-left:50px;
 }
 
 .text4 {
@@ -221,6 +214,8 @@ h3 {
 
 .text6 {
     max-width: 50%;
+    padding-left:50px;
+    background:rgb(19, 19, 19);
 }
 
 .text7 {
@@ -552,12 +547,14 @@ nav a:hover {
 
 .combined-1{
     display: flex;
+    justify-content: space-between;
     margin-top:3rem;
     margin-bottom: 3rem;
 }
 
 .combined-2{
     display: flex;
+    justify-content: space-between;
     margin-top:3rem;
 }
 
@@ -726,8 +723,28 @@ nav a:hover {
         column-gap: 0;
         justify-items: center;
       }
+
       .gathered-text{
         padding-bottom: 50px;
+      }
+
+      .combined-1{
+        flex-wrap:wrap;
+        justify-content: center;
+      }
+
+      .combined-2{
+        flex-wrap:wrap;
+        justify-content: center;
+      }
+
+      .text6{
+        padding-top:50px;
+        padding-bottom:50px;
+      }
+
+      .img7{
+        width:100vh;
       }
   }
 
@@ -747,5 +764,8 @@ nav a:hover {
         padding-right: 15%;
         padding-left: 15%;
   }
+
+ 
+
     }
-  }
+  
