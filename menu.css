@@ -4,10 +4,10 @@
 
 #hamburger {
     display: none;
-    cursor: pointer;
 }
 
 #menu-icon {
+    cursor: pointer;
     position: absolute;
     top: 0;
     left: 50%;
