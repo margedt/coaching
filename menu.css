@@ -1,3 +1,11 @@
+li {
+    list-style: none;
+}
+
+p {
+    margin: 0;
+}
+
 #menu-icon span {
     font-size: 60px;
 }
@@ -19,10 +27,11 @@
 }
 
 #navigation {
+    margin: 0;
     font-size: large;
-    list-style: none;
     background-color: #5d6c7b;
-    width: 20vw;
+    width: 250px;
+    height: 100vh;
     position: absolute;
     top: 0;
     left: -1000px;
@@ -31,4 +40,23 @@
 
 #navigation li {
     padding: 1rem;
+}
+
+.expandable {
+    position: relative;
+}
+.subMenu-header {
+    text-decoration: underline;
+}
+.subMenu {
+    position: absolute;
+    top:0;
+    transform: translateX(100px);
+    background-color: #222222;
+    color: #f1f1f1;
+    box-sizing: border-box;
+    display: none;
+}
+.subMenu-header:hover + .subMenu {
+    display: block;
 }
