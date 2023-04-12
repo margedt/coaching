@@ -4,10 +4,51 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="https://use.typekit.net/abo6nkx.css">
 </head>
+
 <html lang="">
 <body class="text">
+    <link rel="stylesheet" href="style.css">
+<script src="main.js"></script>
+<div class="page-padding">
+
+    <header class="header">
+        <div class="mobileHeader">
+    <img img width="200" src="pagoda.png" alt="logo" class="logo">
+    <button onclick={openMenu()} class="hamburger">Menu</button>
+    </div>
+
+        <nav role="navigation"class="menu navbar text-nav">
+            <ul class="list">
+                <li class="listItem"><a href="index.html">Platform </a></li>
+                <li><a href="#">Recources</a></li>
+                <li><a href="#">Community</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <button class="button button-default button-transparent">
+                    <span>Login</span>
+                    <img width="15" height="15" src="arrow-white.svg" alt="">
+                </button>
+                <button class="button button-default button-is-green">
+                    <span>Get Started</span>
+                    <img width="15" height="15" src="arrow.svg" alt="">
+                </button>
+            </ul>
+        </nav>
+
+    </header>
 <link rel="stylesheet" href="style.css">
 <div class="page-padding">
+    <h1>Contact us</h1>
+<form class="cf">
+  <div class="half left cf">
+    <input type="text" id="input-name" placeholder="Name">
+    <input type="email" id="input-email" placeholder="Email address">
+    <input type="text" id="input-subject" placeholder="Subject">
+  </div>
+  <div class="half right cf">
+    <textarea name="message" type="text" id="input-message" placeholder="Message"></textarea>
+  </div>  
+  <input type="submit" value="Submit" id="input-submit">
+</form>
 </div>
 </body>
 </html>
