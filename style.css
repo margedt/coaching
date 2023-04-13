@@ -233,8 +233,23 @@ h3 {
 }
 
 
-
 /* B U T T O N S */
+
+.email{
+    border-radius: 9999px;
+    letter-spacing: -0.01em;
+    display: flex;
+    align-items: center;
+    text-align: left;
+    font-family: 'Proxima nova', sans-serif;
+    font-size: 1.25rem;
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+    padding: 20px 40px;
+    padding-right:500px;
+    
+}
 
 .button {
     border-radius: 9999px;
@@ -243,6 +258,7 @@ h3 {
     align-items: center;
     font-family: new-spirit, sans-serif;
     font-size: 1rem;
+    
 }
 
 .button-default {
@@ -450,6 +466,11 @@ nav a:hover {
 
 
 /* P A G E   B L O C K S */
+.section-contact{
+    padding-right: 15%;
+    padding-left: 15%;
+}
+
 
 .section0{
     padding-top:150px;
@@ -593,13 +614,14 @@ nav a:hover {
 /* F O O T E R */
 .footer1{
     display: flex;
-    justify-content:space-evenly;
+    justify-content:space-between;
     padding-top:25px;
 }
 
 .vertical-text{
 text-decoration: none;
-list-style-type: none
+list-style-type: none;
+padding-right:40px;
 }
 
 .list-item1{
@@ -615,7 +637,71 @@ li{
 .footer2{
     display: flex;
     justify-content: space-between;
-    padding-top:50px;
+    padding-top:20px;
+}
+
+.footer-spread{
+    display:flex;
+    justify-content:space-between;
+    padding-left:5%;
+    padding-right:5%;
+    margin-top: 50px;;
+}
+
+.class-middle{
+    display:flex;
+    justify-content:center;
+    padding-left:5%;
+    padding-right:5%;
+    margin-top: 50px;;
+}
+
+.text-aligned{
+    text-align: center;
+    margin-top:25px;
+}
+
+.button-long{
+    display: flex;
+}
+
+.footer3{
+    margin:40px;
+}
+
+footer{
+    padding-left:15%;
+    padding-right:15%;
+}
+
+
+/* C O N T A C T */
+input{
+    color:white;   
+    font-family: 'Proxima nova', sans-serif;
+    font-size: 1.125rem;
+    background-color:rgb(19, 19, 19);
+    border: none;
+    border-radius:10px;
+    height:50px;
+    width:100%;
+    margin-top:50px;
+    padding-left:10px;
+}
+
+textarea{
+    background-color:rgb(19, 19, 19);
+    margin-top:50px;
+    margin-bottom:50px;
+    color:white;   
+    font-family: 'Proxima nova', sans-serif;
+    font-size: 1.125rem;
+    background-color:rgb(19, 19, 19);
+    border: none;
+    border-radius:10px;
+    padding-left:10px;
+    height:50px;
+    width:100%;
 }
 
 
@@ -858,6 +944,7 @@ li{
     margin:0px;
     padding-top:20rem;
     }
+}
 
   @media screen and (min-width: 1200) {
     .menu {
