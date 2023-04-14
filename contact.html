@@ -4,10 +4,134 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="https://use.typekit.net/abo6nkx.css">
 </head>
+
 <html lang="">
 <body class="text">
-<link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css">
+<script src="main.js"></script>
 <div class="page-padding">
+
+    <header class="header">
+        <div class="mobileHeader">
+    <img img width="200" src="pagoda.png" alt="logo" class="logo">
+    <button onclick={openMenu()} class="hamburger">Menu</button>
+    </div>
+
+        <nav role="navigation"class="menu navbar text-nav">
+            <ul class="list">
+                <li class="listItem"><a href="index.html">Platform </a></li>
+                <li><a href="#">Recources</a></li>
+                <li><a href="#">Community</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <button class="button button-default button-transparent">
+                    <span>Login</span>
+                    <img width="15" height="15" src="arrow-white.svg" alt="">
+                </button>
+                <button class="button button-default button-is-green">
+                    <span>Get Started</span>
+                    <img width="15" height="15" src="arrow.svg" alt="">
+                </button>
+            </ul>
+        </nav>
+
+    </header>
+<link rel="stylesheet" href="style.css">
+<div class="section-contact page-padding">
+        <h1>Contact us</h1>
+    <form class="">
+        <div class="spacing">
+            <input type="text" id="input-name" placeholder="Name">
+            <input type="email" id="input-email" placeholder="Email address">
+            <input type="text" id="input-subject" placeholder="Subject">
+        </div>
+        <div class="">
+            <textarea name="message" type="text" id="input-message" placeholder="Message"></textarea>
+            <button class="button button-default button-is-green button-big">
+                <span>Send us your message</span>
+            </button>
+        </div>
+</form>
 </div>
+<footer>
+    <div class="footer1">
+        <img img width="50" height="40"src="pagoda-klein.png" alt="logo" class="logo">
+        <button class="button button-big button-transparent">
+            <span>Login</span>
+            <img width="15" height="15" src="arrow-white.svg" alt="">
+        </button>
+    </div>
+    <div class="footer2">
+        <div class=footer2>
+            <ul class="vertical-text">
+                <li class="list-item1">
+                    Pagoda
+                </li>
+                <li>
+                    Platform
+                </li>
+                <li>
+                    JS SDK
+                </li>
+                <li>
+                    Enhanced API
+                </li>
+                <li>
+                    Query API
+                </li>
+            </ul>
+        </div>
+        <div class="footer2">
+            <ul class="vertical-text">
+                <li class="list-item1">
+                    Resources
+                </li>
+                <li>
+                    Documentation
+                </li>
+                <li>
+                    Why Web3?
+                </li>
+                <li>
+                    Why NEAR3?
+                </li>
+                <li>
+                    Our blog
+                </li>
+            </ul>
+        </div>
+        <div class="footer2">
+            <ul class="vertical-text">
+                <li class="list-item1">
+                    Our Company
+                </li>
+                <li>
+                    Community
+                </li>
+                <li>
+                    Careers
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="footer3">
+        <div class="button-long">
+            <p class="email">
+                <span>Your E-mail</span>
+            </p>
+            <button class="button button-big button-default button-white">
+                <span>Submit</span>
+                <img width="15" height="15" src="arrow.svg" alt="">
+            </button>
+        </div>
+        <div class="footer-spread">
+            <img width="75" height="60" src="reddit.png" alt="">
+            <img width="90" height="60" src="discord.png" alt="">
+            <img width="95" height="60" src="twitter.png" alt="">
+            <img width="75" height="60" src="telegram.png" alt="">
+        </div>
+        <p class="text-aligned">Pagoda 2022 - All Rights Reserved.</p>
+    </div>
+</footer>
+
 </body>
 </html>
