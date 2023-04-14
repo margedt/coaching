@@ -968,4 +968,12 @@ textarea{
     height: 60vh;
     }
 
+    .footer-spread{
+        display:flex;
+        justify-content:flex-end !important;
+        padding-left:5%;
+        padding-right:5%;
+        margin-top: 50px;;
+    }
+
     }
