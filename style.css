@@ -858,7 +858,7 @@ textarea{
         display: block;
       }
     
-      .menu {
+      #menu {
          display: none;
       }
     
@@ -933,7 +933,7 @@ textarea{
 
 
   @media screen and (min-width: 801px) {
-    .menu {
+    #menu {
       display: block !important;
     }
 
@@ -951,7 +951,7 @@ textarea{
 }
 
   @media screen and (min-width: 1200) {
-    .menu {
+    #menu {
       display: block !important;
     }
 
