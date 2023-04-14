@@ -1,14 +1,11 @@
-const hamb = document.querySelector(".hamburger");
-// const menu = document.querySelector(".menu");
-let open = true;
+let open = false;
 
 function openMenu() {
-const menu = document.getElementsByClassName("menu");
+    const menu = document.getElementById("menu");
     if (open) {
-        console.log(menu)
         menu.style.display = "none";
         open = false;
-    } else if (!open) {
+    } else {
         menu.style.display = "block";
         open = true;
     }

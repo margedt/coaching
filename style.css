@@ -10,7 +10,6 @@
 /* F A Q */
 
 
-
 /* D E F A U L T S */
 
 body {
@@ -63,9 +62,8 @@ h3 {
 }
 
 
-
 /* G L O B A L */
-.page-padding{
+.page-padding {
 }
 
 .whitespace {
@@ -76,15 +74,15 @@ h3 {
     right: 0;
     padding-bottom: 15rem;
     overflow: hidden;
-    z-index:-100;
+    z-index: -100;
 }
 
-.whitespace-2{
+.whitespace-2 {
     padding-bottom: 12rem;
 }
 
-.whitespace-margin{
-    margin-bottom:20rem;;
+.whitespace-margin {
+    margin-bottom: 20rem;;
 }
 
 .background-color {
@@ -108,43 +106,41 @@ h3 {
 .column {
     flex: 25%;
     padding: 20px;
-  }
+}
 
 .row {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-  }
+}
 
 .rowToColumn {
     display: flex;
     flex-direction: row;
-  }
+}
 
-.alignMiddle{
-    width:50%;
-    display:flex;
+.alignMiddle {
+    width: 50%;
+    display: flex;
     justify-content: center;
     align-items: center;
 }
 
 
 /* I C O N S */
-#id{
+#id {
     padding-bottom: 12rem;
 }
 
-.extra-space{
-    margin-top:1rem;
-    margin-bottom:2rem;
+.extra-space {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
     z-index: -100;
 }
 
-.white-background{
+.white-background {
     background-color: white;
 }
-
-
 
 
 /* I M A G E S */
@@ -190,7 +186,6 @@ h3 {
 }
 
 
-
 /* T E X T */
 
 .text2 {
@@ -201,7 +196,7 @@ h3 {
 
 .text3 {
     max-width: 70%;
-    padding-left:50px;
+    padding-left: 50px;
 }
 
 .text4 {
@@ -214,27 +209,26 @@ h3 {
 
 .text6 {
     max-width: 50%;
-    padding-left:50px;
-    background:rgb(19, 19, 19);
+    padding-left: 50px;
+    background: rgb(19, 19, 19);
 }
 
 .text7 {
     max-width: 70%;
 }
 
-.big-paragraph{
+.big-paragraph {
     font-size: 2.25rem;
     font-weight: 300;
 }
 
-.text-nav{
+.text-nav {
 
 }
 
-#black-text{
+#black-text {
     color: black;
 }
-
 
 
 /* B U T T O N S */
@@ -275,7 +269,8 @@ h3 {
     background-color: transparent;
     color: black;
 }
-.button-black{
+
+.button-black {
     border: 1px solid black;
     background-color: black;
     color: white;
@@ -291,8 +286,6 @@ h3 {
     width: 40px;
     height: 40px;
 }
-
-
 
 
 /* L I N E S */
@@ -359,7 +352,6 @@ h3 {
 }
 
 
-
 /* N A V I G A T I O N */
 
 .header {
@@ -372,7 +364,7 @@ h3 {
 }
 
 header::after {
-    content:  '';
+    content: '';
     display: table;
     clear: both;
 }
@@ -425,7 +417,7 @@ nav a:hover {
 
 .hamburger {
     display: none;
-  }
+}
 
 .list {
     display: grid;
@@ -442,12 +434,10 @@ nav a:hover {
 }
 
 
-
-
 /* P A G E   B L O C K S */
 
-.section0{
-    padding-top:150px;
+.section0 {
+    padding-top: 150px;
     text-align: left;
     padding-right: 15%;
     padding-left: 15%;
@@ -464,7 +454,7 @@ nav a:hover {
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding-top:0;
+    padding-top: 0;
     background-color: rgb(19, 19, 19);
 }
 
@@ -486,76 +476,76 @@ nav a:hover {
     text-align: left;
 }
 
-.together{
+.together {
     text-align: left;
 }
 
-.together-3{
-    padding-top:7rem;
-    color:black;
+.together-3 {
+    padding-top: 7rem;
+    color: black;
 }
 
-.section3{
+.section3 {
     display: flex;
     align-items: center;
     padding: 0px;
-    margin:0px;
+    margin: 0px;
     padding-right: 15%;
     padding-left: 15%;
 }
 
-.gathered-2{
+.gathered-2 {
     display: flex;
     margin-top: 7rem;
 }
 
-.together-2{
-    padding-left:5rem;
-    padding-top:7rem;
+.together-2 {
+    padding-left: 5rem;
+    padding-top: 7rem;
 }
 
-.section4{
+.section4 {
     display: flex;
     align-items: center;
     padding-right: 15%;
     padding-left: 15%;
-    margin:0px;
-    padding-top:20rem;
+    margin: 0px;
+    padding-top: 20rem;
 }
 
-.gathered-3{
+.gathered-3 {
     display: flex;
     justify-content: center;
-    background-color:rgb(19, 19, 19);
+    background-color: rgb(19, 19, 19);
     padding: 0px;
-    margin:0px;
-    
+    margin: 0px;
+
 }
 
-.lol{
+.lol {
     object-position: 70% 15%;
 }
 
-.together-4{
-    padding-left:5rem;
+.together-4 {
+    padding-left: 5rem;
 }
 
-.aligna{
+.aligna {
     border-bottom: 2px solid #000;
     text-align: center;
 }
 
-.combined-1{
+.combined-1 {
     display: flex;
     justify-content: space-between;
-    margin-top:3rem;
+    margin-top: 3rem;
     margin-bottom: 3rem;
 }
 
-.combined-2{
+.combined-2 {
     display: flex;
     justify-content: space-between;
-    margin-top:3rem;
+    margin-top: 3rem;
 }
 
 .pagoda-everyone {
@@ -566,7 +556,6 @@ nav a:hover {
     text-align: center;
     padding-top: 10rem;
 }
-
 
 
 /* F A Q */
@@ -591,30 +580,31 @@ nav a:hover {
     body {
 
     }
+
     .column {
         flex: 50%;
-      }
-    
+    }
+
     p {
         margin: 0;
         overflow: hidden;
         padding: 16px 16px 16px 0;
     }
-    
+
     h1 {
         font-size: 3.25rem;
         line-height: 1;
         font-weight: 300;
         letter-spacing: -0.02em;
     }
-    
+
     h2 {
         font-size: 2.5rem;
         line-height: 1;
         font-weight: 200;
         letter-spacing: -0.02em;
     }
-    
+
     h3 {
         font-size: 2rem;
         line-height: 1;
@@ -622,26 +612,28 @@ nav a:hover {
         letter-spacing: -0.02em;
     }
 
-    .big-paragraph{
+    .big-paragraph {
         font-size: 1.5rem;
     }
-        
 
-  }
+
+}
 
 /* Mobile */
 @media screen and (max-width: 800px) {
     .rowToColumn {
         flex-direction: column;
         align-items: center;
-        flex-wrap:wrap;
+        flex-wrap: wrap;
     }
+
     body {
 
     }
+
     .row {
         flex-direction: column;
-      }
+    }
 
     p {
         font-size: 1rem;
@@ -649,21 +641,21 @@ nav a:hover {
         overflow: hidden;
         padding: 16px 16px 16px 0;
     }
-    
+
     h1 {
         font-size: 3rem;
         line-height: 1;
         font-weight: 300;
         letter-spacing: -0.02em;
     }
-    
+
     h2 {
         font-size: 2rem;
         line-height: 1;
         font-weight: 200;
         letter-spacing: -0.02em;
     }
-    
+
     h3 {
         font-size: 1.5rem;
         line-height: 1;
@@ -671,15 +663,15 @@ nav a:hover {
         letter-spacing: -0.02em;
     }
 
-    .section2{
+    .section2 {
         padding-top: 50px;
     }
 
-    .big-paragraph{
+    .big-paragraph {
         font-size: 1.5rem;
     }
 
-    .img2{
+    .img2 {
         object-fit: cover;
         height: 50vh;
         max-height: 50rem;
@@ -688,7 +680,7 @@ nav a:hover {
     }
 
     .img3 {
-        padding-top:30px;
+        padding-top: 30px;
         width: 70vh;
         object-fit: contain;
         max-height: 50rem;
@@ -700,72 +692,71 @@ nav a:hover {
     .header {
         flex-direction: column;
         padding: 20px;
-      }
-    
-      .mobileHeader {
+    }
+
+    .mobileHeader {
         width: 100%;
         display: flex;
         justify-content: space-between;
-      }
-    
-      .hamburger {
+    }
+
+    .hamburger {
         display: block;
-      }
-    
-      .menu {
-         display: none;
-      }
-    
-      .list {
+    }
+
+    #menu {
+        display: none;
+    }
+
+    .list {
         grid-auto-flow: row;
         list-style-type: none;
         row-gap: 40px;
         column-gap: 0;
         justify-items: center;
-      }
+    }
 
-      .gathered-text{
+    .gathered-text {
         padding-bottom: 50px;
-      }
-
-      .combined-1{
-        flex-wrap:wrap;
-        justify-content: center;
-      }
-
-      .combined-2{
-        flex-wrap:wrap;
-        justify-content: center;
-      }
-
-      .text6{
-        padding-top:50px;
-        padding-bottom:50px;
-      }
-
-      .img7{
-        width:100vh;
-      }
-  }
-
-
-  @media screen and (min-width: 801px) {
-    .menu {
-      display: block !important;
-    }
-  }
-
-  @media screen and (min-width: 1200) {
-    .menu {
-      display: block !important;
     }
 
-    .section2{
+    .combined-1 {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .combined-2 {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .text6 {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .img7 {
+        width: 100vh;
+    }
+}
+
+
+@media screen and (min-width: 801px) {
+    #menu {
+        display: block !important;
+    }
+}
+
+@media screen and (min-width: 1200) {
+    #menu {
+        display: block !important;
+    }
+
+    .section2 {
         padding-right: 15%;
         padding-left: 15%;
-  }
-
- 
-
     }
+
+
+}
   
