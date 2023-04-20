@@ -638,6 +638,11 @@ li{
     padding-bottom: 10px;
 }
 
+a{
+    color: white;
+    text-decoration: none;
+}
+
 .footer2{
     display: flex;
     justify-content: space-between;
@@ -676,6 +681,11 @@ li{
 footer{
     padding-left:15%;
     padding-right:15%;
+}
+
+.footer-look{
+    text-decoration: none;
+    color:#fff;
 }
 
 
@@ -948,6 +958,11 @@ textarea{
     margin:0px;
     padding-top:20rem;
     }
+
+    .email{
+
+    }
+
 }
 
   @media screen and (min-width: 1200) {
