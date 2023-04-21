@@ -629,7 +629,7 @@ padding-right:40px;
 }
 
 .list-item1{
-    color:#87bb81;
+    color:#87bb81 !important;
     font-weight: 400;
     padding-bottom: 20px;
 }
