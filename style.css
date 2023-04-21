@@ -629,13 +629,18 @@ padding-right:40px;
 }
 
 .list-item1{
-    color:#87bb81;
+    color:#87bb81 !important;
     font-weight: 400;
     padding-bottom: 20px;
 }
 
 li{
     padding-bottom: 10px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
 }
 
 .footer2{
@@ -676,6 +681,11 @@ li{
 footer{
     padding-left:15%;
     padding-right:15%;
+}
+
+.footer-look{
+    text-decoration: none;
+    color:#fff;
 }
 
 
@@ -858,7 +868,7 @@ textarea{
         display: block;
       }
     
-      .menu {
+      #menu {
          display: none;
       }
     
@@ -933,7 +943,7 @@ textarea{
 
 
   @media screen and (min-width: 801px) {
-    .menu {
+    #menu {
       display: block !important;
     }
 
@@ -948,10 +958,15 @@ textarea{
     margin:0px;
     padding-top:20rem;
     }
+
+    .email{
+
+    }
+
 }
 
   @media screen and (min-width: 1200) {
-    .menu {
+    #menu {
       display: block !important;
     }
 
