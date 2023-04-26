@@ -128,6 +128,10 @@ h3 {
     align-items: center;
 }
 
+.cursor{
+    cursor:default;
+}
+
 
 /* I C O N S */
 #id{
@@ -248,7 +252,7 @@ h3 {
     color: white;
     padding: 20px 40px;
     padding-right:500px;
-    
+    width:70vh;
 }
 
 .button {
@@ -670,10 +674,6 @@ a{
     margin-top:25px;
 }
 
-.button-long{
-    display: flex;
-}
-
 .footer3{
     margin:40px;
 }
@@ -699,7 +699,6 @@ input{
     border-radius:10px;
     height:50px;
     width:100%;
-    margin-top:50px;
     padding-left:10px;
 }
 
@@ -716,6 +715,10 @@ textarea{
     padding-left:10px;
     height:50px;
     width:100%;
+}
+
+#margin-input{
+    margin-top:50px;
 }
 
 
@@ -939,6 +942,10 @@ textarea{
             padding:0px;
       }
 
+      .email{
+        width:50vh;
+      }
+
   }
 
 
@@ -959,8 +966,14 @@ textarea{
     padding-top:20rem;
     }
 
-    .email{
 
+    .button-long{
+        display:flex;
+      }
+
+    #padding-left{
+        padding-left:50px;
+        padding-right:50px;
     }
 
 }
@@ -990,5 +1003,10 @@ textarea{
         padding-right:5%;
         margin-top: 50px;;
     }
+
+    .button-long{
+        display:flex;
+      }
+
 
     }
