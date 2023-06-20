@@ -2,6 +2,18 @@
 <head>
     <title>Pagoda</title>
     <meta charset="UTF-8">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#da373d',
+                    }
+                }
+            }
+        }
+    </script>
 </head>
 <html lang="fr">
 <body class="text">
@@ -17,7 +29,7 @@
     </nav>
 
     <header class="header">
-        <h1>
+        <h1 class="text-primary">
             Meet the easiest <br/> Web3 Startup <br/>Platform.
         </h1>
         <div>
