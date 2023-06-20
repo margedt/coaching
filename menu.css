@@ -42,21 +42,41 @@ p {
     padding: 1rem;
 }
 
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border-width: 0;
+
+}
+
 .expandable {
     position: relative;
+}
+.expandable p {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 .subMenu-header {
     text-decoration: underline;
 }
+#chevron + label i {
+    transform: rotate(0deg);
+    transition: transform 0.2s ease-in;
+}
+#chevron:checked + label i {
+    transform: rotate(180deg);
+    transition: transform 0.2s ease-in;
+}
 .subMenu {
-    position: absolute;
-    top:0;
-    transform: translateX(100px);
-    background-color: #222222;
-    color: #f1f1f1;
-    box-sizing: border-box;
     display: none;
 }
-.subMenu-header:hover + .subMenu {
+.subMenu-header:has(#chevron:checked) + .subMenu {
     display: block;
 }

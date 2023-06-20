@@ -1,32 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Title</title>
+  <meta charset="UTF-8">
+  <title>Title</title>
   <link rel="stylesheet" href="menu.css">
+  <script src="https://kit.fontawesome.com/31eb4b3072.js" crossorigin="anonymous"></script>
 </head>
 <body>
 <div>
-    <label for="hamburger" id="menu-icon">
-        <span>=</span>
-    </label>
-    <input id="hamburger" type="checkbox"/>
-    <ul id="navigation">
-      <li>Home</li>
-      <li>Services</li>
-      <li class="expandable">
-          <p class="subMenu-header">Team</p>
-          <ul class="subMenu">
-              <li>Margot</li>
-              <li>Thomas</li>
-              <li>Bouba</li>
-              <li>Dasha</li>
-              <li>Josué</li>
-          </ul>
-      </li>
-      <li>Jobs</li>
-      <li>Contact</li>
-    </ul>
+  <label for="hamburger" id="menu-icon">
+    <span>=</span>
+  </label>
+  <input id="hamburger" type="checkbox"/>
+  <ul id="navigation">
+    <li>Home</li>
+    <li>Services</li>
+    <li class="expandable">
+      <p class="subMenu-header">
+        <span>Team</span>
+        <input id="chevron" class="sr-only" type="checkbox"/>
+        <label for="chevron" id="sub-menu-icon">
+          <i class="fa-solid fa-chevron-down"></i>
+        </label>
+      </p>
+      <ul class="subMenu">
+        <li>Margot</li>
+        <li>Thomas</li>
+        <li>Bouba</li>
+        <li>Dasha</li>
+        <li>Josué</li>
+      </ul>
+    </li>
+    <li>Jobs</li>
+    <li>Contact</li>
+  </ul>
 </div>
 </body>
 </html>
